@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+.body-colour{
+    background-color: #F5F5EE;
+}
+#nav-bar{
+    margin: 12px auto;
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+.logo{
+    width: 60px;
+}
+.left-div{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.my-list{
+    display: flex;
+    gap: 1em;
+}
+.my-list a{
+    font-size: 1em;
+    font-weight: 200;
+    color: #000;
+}
+.right-div{
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.right-div p{
+    font-size: 1em;
+    font-weight: 200;   
+}
+.right-div span{ 
+    font-weight: 600;
+}
+.right-div a{
+    font-size: 1.12em;
+    font-weight: 700;
+    padding: 8px 10px;
+    border-radius: 6px;
+    background-color: #F26522;
+    color: #FFFFFF;
+}
+.left-div .my-list a:hover{
+    color: #268BD2;
+}
+.right-div a:hover{
+    background-color: #e85511;
+}
+.hero-section{
+    height: 430px;
+    overflow: hidden;
+    margin-left: 12px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFFFFF;
+    position: relative;
+
+}
+.small-divs{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 232px;
+    height: 140px;
+    background-color: #F5F5EE;
+    position: absolute;
+    border-radius: 16px;
+    top: 66px;
+    left: 718px;
+}
+.sm2{
+    top: 230px;
+}
+.small-divs p{
+    /* border: 1px solid #ff0000; */
+    width: max-content;
+}
+.values{
+    color: #FB651E;
+    font-size: 34px;
+    font-weight: 700;
+}
+.words{
+    font-weight: 200;
+}
+.hero-left{
+    margin-left: 218px;
+    margin-bottom: 20px;
+    
+}
+.hero-left h1{
+    /* border: 1px solid #ff0000; */
+    color: #EE5D19;
+    font-size: 4em;
+    font-weight: 500;
+    margin-bottom: 10px;
+    
+}
+.hero-left p{
+    /* border: 1px solid #ff0000; */
+    font-size: 1.4em;
+    font-weight: 200;
+    margin-top: 4px;
+    margin-bottom: 28px;
+    
+}
+.hero-left a{
+    font-size: 1.2em;
+    padding: 8px 34px;
+    border-radius: 8px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background-color: #FB651E; 
+}
+.hero-left a:hover{
+    background-color: #FDA942;
+}
+.hero-image{
+    width: 100%;
+    height: 500px;
+}
+

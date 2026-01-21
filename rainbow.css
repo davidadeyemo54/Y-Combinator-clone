@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.rainbowcontainer{
+    /* border: 1px solid #ff0000; */
+    padding: 400px;
+    width: 60%;
+    margin: 100px auto;
+    position: relative; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rainbow{
+    background-color: #0000ff;
+    position: absolute;
+    border-radius: 50%;
+}
+.rainbow1{
+    background-color: #ff0000;
+    height: 700px;
+    width: 700px;    
+}
+.rainbow2{
+    background-color: #ffa500;
+    height: 680px;
+    width: 680px;
+}
+.rainbow3{
+    background-color: #ffff00;
+    height: 660px;
+    width: 660px;
+}
+.rainbow4{
+    background-color: #008000;
+    height: 640px;
+    width: 640px;
+}
+.rainbow5{
+    background-color: #0000ff;
+    height: 620px;
+    width: 620px;
+}
+.rainbow6{
+    background-color: #4b0082;
+    height: 600px;
+    width: 600px;
+}
+.rainbow7{
+    background-color: #ee82ee;
+    height: 580px;
+    width: 580px;
+}
+.rainbow8{
+    background-color: #ff00ff;
+    height: 560px;
+    width: 560px;
+}
+.rainbow9{
+    background-color: #ff7f50;
+    height: 540px;
+    width: 540px;
+}
+.rainbow10{
+    background-color: #000000;
+    height: 520px;
+    width: 520px;
+}
+.rainbow11{
+    background-color: #00ffff;
+    height: 500px;
+    width: 500px;
+}
+.rainbow12{
+    background-color: #d8bfd8;
+    height: 480px;
+    width: 480px;
+}
+.rainbow13{
+    background-color: #8b4513;
+    height: 460px;
+    width: 460px;
+}
+.rainbow14{
+   background-color: #ffc0cb; 
+   height: 440px;
+   width: 440px;
+}
