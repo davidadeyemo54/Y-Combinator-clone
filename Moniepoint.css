@@ -220,3 +220,74 @@ position: relative;
 .cookie a:hover::after{
     opacity: 1;
 }
+.hero-section{
+    display: flex;
+}
+.left-hero{
+    margin-top: 120px;
+    margin-left: 76px;
+    width: max-content;
+    width: 40%;
+}
+
+.left-hero .africa{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 0.6em;
+    padding: 8px 24px;
+    padding-left: 12px;
+    border-radius: 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background-color: #3E588E;
+    font-family: sans-serif;
+}
+.left-hero h1{
+    color: #FFFFFF;
+    font-weight: 650;
+    font-size: 60px;
+    margin-top: 26px;
+}
+.collect-pay{
+    line-height: 1.6;
+    width: 550px;
+    font-size: 18px;
+    margin-top: 26px;
+    margin-bottom: 60px;
+    color: #C3C9D5;
+}
+.anchor-open{
+    color: #FFFFFF;
+    background-color: #0F5BE3;
+    padding: 16px 36px;
+    padding-left: 26px;
+    border-radius: 12px;
+    font-weight: 400;
+}
+.rt-arrow{
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    padding-left: 14px;
+}
+ .licensed{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+    color: #cfd4e0;
+    font-size: 12px;
+ }
+ .cbn{
+    width: 34px;
+    padding: 5.4px;
+ }
+ .ndic{
+    padding: 5.4px;
+    width: 84px;
+}
+.right-hero{
+    width: 40%;
+    margin-left: 80px;
+}
+
