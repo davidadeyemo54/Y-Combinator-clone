@@ -11,17 +11,29 @@
 #nav-bar{
     margin: auto;
     width: 94%;
-    padding: 30px;
+    padding: 20px;
     display: flex;
     align-items: center;
     gap: 1.4em;
     justify-content: space-between;
     background-color: #031335;
 }
+#nav-bar{
+    position: fixed;
+    top: 56px;
+    width: 100%;
+    z-index: 1000;
+}
+nav{
+    position: sticky;
+    top: 0;
+}
 .my-image{
     width: 150px;
 }
 .left{
+    padding: 10px;
+    margin-left: 38px;
     display: flex;
     align-items: center;
     gap: 1.4em;
@@ -40,6 +52,7 @@
     color: #FFFFFF;
 }
 .buttonx a{
+    transition: 0.16s ease-in-out;
     color: #FFFFFF;
     padding: 10px 12px;
     border-radius: 20px;
@@ -48,11 +61,11 @@
     background-color: #35425D;
 } 
 .right{
+    padding-right: 30px;
+    margin-right: 30px;
     display: flex;
     align-items: center;
     gap: 0.28em;
-    /* border: 1px solid red;
-    padding: 20px; */
 }
 .my-list2{
     color: #FFFFFF;
@@ -73,6 +86,7 @@
     color: #FFFFFF
 }
 .buttony a{
+    transition: 0.16s ease-in-out;
     color: #FFFFFF;
     padding: 10px 12px;
     border-radius: 20px;
@@ -81,6 +95,7 @@
     background-color: #35425D;
 }
 .buttonz a{
+   transition: 0.16s ease-in-out;
    padding: 10px 12px;
    border-radius: 20px;
    color: #FFFFFF
@@ -89,6 +104,7 @@
     background-color: #35425D;
 }
 .buttonz1 a{
+    transition: 0.16s ease-in-out;
     color: #FFFFFF;
     padding: 10px 12px;
     border-radius: 20px;
@@ -224,8 +240,8 @@ position: relative;
     display: flex;
 }
 .left-hero{
-    margin-top: 120px;
-    margin-left: 76px;
+    margin-top: 210px;
+    margin-left: 68px;
     width: max-content;
     width: 40%;
 }
@@ -254,16 +270,21 @@ position: relative;
     width: 550px;
     font-size: 18px;
     margin-top: 26px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
     color: #C3C9D5;
 }
 .anchor-open{
+    display: inline-block;
     color: #FFFFFF;
     background-color: #0F5BE3;
     padding: 16px 36px;
     padding-left: 26px;
     border-radius: 12px;
     font-weight: 400;
+    transition: 0.3s ease-in-out
+}
+.anchor-open:hover{
+    transform: scale(0.94);
 }
 .rt-arrow{
     color: #FFFFFF;
@@ -274,7 +295,7 @@ position: relative;
  .licensed{
     display: flex;
     align-items: center;
-    margin-top: 40px;
+    margin-top: 26px;
     color: #cfd4e0;
     font-size: 12px;
  }
@@ -285,9 +306,12 @@ position: relative;
  .ndic{
     padding: 5.4px;
     width: 84px;
+    
 }
 .right-hero{
-    width: 40%;
     margin-left: 80px;
+    margin-top: 100px;
 }
+
+
 
