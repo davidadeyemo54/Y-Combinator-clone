@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.body-colour{
+    background-color: #E3DEDE;
+}
+.flags{
+    width: max-content;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 50px;
+    margin: 50px auto;
+}
+.china-flag{
+    background-color: #EE1C25;
+    width: 300px;
+    height: 180px;
+    position: relative;
+}
+.star{
+    position: absolute;
+}
+.img{
+    width: 60px;
+    height: 100%;
+}
+.smallx{
+    width: 18px;
+    transform: rotate(16deg);
+}
+.big-star{
+    top: 14px;
+    left: 14px;
+}
+.s1{
+    top: 10px;
+    left: 70px;
+}
+.s2{
+    top: 26px;
+    left: 90px;
+    transform: rotate(-40deg);
+}
+.s3{
+    top: 50px;
+    left: 90px;
+    transform: rotate(-16deg);
+}
+.s4{
+    top: 64px;
+    left: 70px;
+    transform: rotate(10deg);
+}
+.paraguay-flag{
+    width: 300px;
+    height: 180px;
+    position: relative;
+    background-color: #FFFFFF;
+}
+
+.stripe{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+}
+.red{
+    background-color: #EE1C25;
+}
+.white{
+    background-color: #FFFFFF;
+    top: 60px;
+}
+.blue{
+    background-color: #0038A8;
+    top: 120px;
+}
+.paraguay-img{
+    width: 44px;
+}
+.image-box{
+    position: absolute;
+    top: 8.2px;
+    left: 126px
+}
+.russia-flag{
+    width: 300px;
+    height: 180px;
+    position: relative;
+}
+.str1{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+}
+.white1{
+    background-color: #FFFFFF;
+}
+.blue2{
+    background-color: #0036A7;
+    top: 60px;
+}
+.red3{
+    background-color: #D62718;
+    top: 120px;
+}
+.argentina-flag{
+    background-color: #74ACDF;
+    width: 300px;
+    height: 180px;
+    position: relative;
+}
+.white2{
+    background-color: #FFFFFF;
+    position: absolute;
+    width: 300px;
+    height: 60px;
+    top: 60px;
+}
+.argent-img{
+    width: 54px;
+}
+.image-box2{
+    position: absolute;
+    top: 4px;
+    left: 120px;
+}
+.brazil-flag{
+    position: relative;
+    background-color: #009B3A;
+    width: 300px;
+    height: 180px;
+}
+.logo-img{
+    width: 250px;
+}
+.logo{
+    position: absolute;
+    top:-50px;
+    left: 26px;
+}
+.england-flag{
+    position: relative;
+    background-color: #FFFFFF;
+    width: 300px;
+    height: 180px;
+}
+.str2{
+    position: absolute;
+    width: 300px;
+    height: 36px;
+}
+.hor-red{
+    background-color: #CE1124;
+    top: 74px; 
+}
+.ver-red{
+    top: 72px;
+    left: 60px;
+    width: 180px;
+    background-color: #CE1124; 
+    transform: rotate(90deg);
+}
+.france-flag{
+   position: relative;
+   width: 300px;
+   height: 180px;
+}
+.str3{
+    position: absolute;
+    transform: rotate(180eg);
+    width: 100px;
+    height: 180px;
+}
+.blue3{
+    background-color: #0050A4;
+}
+.white3{
+    left: 100px;
+    background-color: #FFFFFF;
+}
+.red4{
+    left: 200px;
+    background-color: #EF4135;
+}
+.germany-flag{
+   position: relative;
+   width: 300px;
+   height: 180px;
+}
+.str4{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+}
+.black{
+    background-color: #000000;
+}
+.red5{
+    top: 60px;
+    background-color: #DD0000;
+}
+.yellow{
+    top: 120px;
+    background-color: #FFCC00;
+}
+.uruguay-flag{
+   background: #FFFFFF;
+   position: relative;
+   width: 300px;
+   height: 180px;
+}
+.str5{
+    background-color: #0038A8;
+    position: absolute;
+    width: 300px;
+    height: 20px;
+}
+.blue4{
+    top: 140px;
+}
+.blue5{
+    top: 100px;
+}
+.blue6{
+    left: 100px;
+    width: 200px;
+    top: 60px;
+}
+.blue7{
+    left: 100px;
+    width: 200px;
+    top: 20px; 
+}
+.uruguay-logo{
+    width: 80px;
+}
+.uruguay-logo-div{
+    position: absolute;
+    left: 10px;
+    top: 11px;
+}
+
+
+
+
+
+
+
+
